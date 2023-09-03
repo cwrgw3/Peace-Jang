@@ -1,6 +1,8 @@
 * {
     margin: 0%;
     padding: 0%;
+
+    user-select: none;
 }
 
 
@@ -45,16 +47,30 @@ body {
     border-bottom-left-radius: 4vh;
 
     transition: 0.5s;
+    overflow: auto;
 }
 
 #SidePageMenu {
     position: relative;
-
     width: 7.77vw;
 
     top: 8.88vw;
     left: 8.88vw;
 }
+
+#SidePageMenuBar {
+    position: sticky;
+
+    top: 0%;
+
+    width: 71vw;
+    height: 16.66vw;
+    padding-bottom: 4.44vw;
+
+    background-color: #279eff;
+    z-index: 100;
+}
+
 
 .show {
     right: 0vw;}
@@ -67,4 +83,55 @@ body {
     border: none;
 
     color: white;
+}
+
+.dropdown-button {
+    background: transparent;
+    border: none;
+
+    color: white;
+    font-size: 8.88vw;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+/* 드롭다운 메뉴가 펼쳐질 때의 스타일 */
+.dropdown-content.active {
+    display: block;
+}
+
+.dropdown_detail {
+    color: #C6E5FB;
+    list-style-type: none;
+    text-decoration: none;
+
+    font-size: 6.66vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+
+    top: -4.44vw;
+    left: 8.88vw;
+}
+
+ul, li {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.big_categories {
+    margin-top: 8.88vw;
+}
+
+.small_categories {
+    margin-top: 3.33vw;
+    margin-left: 8.88vw;
 }

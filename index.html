@@ -9,10 +9,46 @@
     <!-- <link rel="text/javascript" src="add.js"> -->
 <body>
     <div class="MainPageBar">
-        <a href="index.html"><img src="image/bird.png" alt="평화의 장 로고" id="MainPageLogo" onclick="SideMenuOpen()"></a>
+        <a href="index.html"><img src="image/bird.png" alt="평화의 장 로고" id="MainPageLogo"></a>
         <img src="image/menu.png" alt="평화의 장 메뉴" id="MainPageMenu" onclick="toggleSideMenu()">
         <div id="SideMenu" class="hide"> <!--사이드 메뉴-->
-            <img src="image/menu_white.png" alt="평화의 장 사이드 바 메뉴" id="SidePageMenu" onclick="toggleSideMenu()">
+            <div id="SidePageMenuBar">
+                <img src="image/menu_white.png" alt="평화의 장 사이드 바 메뉴" id="SidePageMenu" onclick="toggleSideMenu()">
+            </div>
+            <ul class="dropdown">
+                <li class="big_categories"><a class="dropdown-button">행사소개</a>
+                    <ul class="dropdown-content">
+                        <li class="small_categories"><a href="행사소개/기획배경.html" class="dropdown_detail">기획배경</a></li>
+                        <li class="small_categories"><a href="행사소개/운영취지.html" class="dropdown_detail">운영취지</a></li>
+                        <li class="small_categories"><a href="행사소개/인사말.html" class="dropdown_detail">인사말</a></li>
+                        <li class="small_categories"><a href="행사소개/오시는길.html" class="dropdown_detail">오시는 길</a></li>
+                        <li class="small_categories"><a href="행사소개/행사안내도.html" class="dropdown_detail">행사 안내도</a></li>
+                    </ul>
+                </li>
+
+                <li class="big_categories"><a class="dropdown-button">프로그램</a>
+                    <ul class="dropdown-content">
+                        <li class="small_categories"><a href="프로그램/프로그램일정안내.html" class="dropdown_detail">프로그램 일정 안내</a></li>
+                        <li class="small_categories"><a href="프로그램/무대프로그램.html" class="dropdown_detail">무대 프로그램</a></li>
+                        <li class="small_categories"><a href="프로그램/부스안내.html" class="dropdown_detail">부스 안내</a></li>
+                    </ul>
+                </li>
+                                
+                <li class="big_categories"><a class="dropdown-button">이벤트</ba>
+                    <ul class="dropdown-content">
+                        <li class="small_categories"><a href="룰렛 돌리기.html" class="dropdown_detail">룰렛 돌리기</a></li>
+                    </ul>
+                </li>
+
+                <li class="big_categories"><a class="dropdown-button" href="공지사항.html">공지사항</a>
+                </li>
+
+                <li class="big_categories"><a class="dropdown-button" href="SNS연결.html">SNS 연결</a>
+                </li>
+
+                <li class="big_categories"><a class="dropdown-button" href="#">ヾ(•ω•`)o</a>
+                </li>
+            </ul>
         </div> 
     </div> <!-- 맨 위에 이동 창 -->
     
