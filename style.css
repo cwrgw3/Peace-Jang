@@ -1,0 +1,70 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body {
+    background-color: #C6E5FB;}
+
+.MainPageBar {
+    margin: 5vw auto 0 auto;
+    width: 90vw;
+    height: 17.77vw;
+
+    background-color: white;
+    border-radius: 17.77vw;
+}
+
+#MainPageLogo {
+    position: relative;
+    width: 11.11vw;
+
+    left: 3.33vw;
+    top: 3.33vw;
+}
+
+#MainPageMenu {
+    position: relative;
+    float: right;
+    width: 7.77vw;
+
+    right: 6.11vw;
+    top: 5.55vw;
+}
+
+#SideMenu {
+    position: fixed;
+    width: 71vw;
+    height: 100vh;
+
+    top: 0%;
+
+    background-color: #279eff;
+    border-top-left-radius: 4vh;
+    border-bottom-left-radius: 4vh;
+
+    transition: 0.5s;
+}
+
+#SidePageMenu {
+    position: relative;
+
+    width: 7.77vw;
+
+    top: 8.88vw;
+    left: 8.88vw;
+}
+
+.show {
+    right: 0vw;}
+
+.hide {
+    right: -71vw;}
+
+.linked_text {
+    background-color:transparent;
+    border: none;
+
+    color: white;
+}
