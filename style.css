@@ -38,11 +38,11 @@ body {
 #SideMenu {
     position: fixed;
     width: 71vw;
-    height: 100vh;
+    height: 90vh;
 
     top: 0%;
 
-    background-color: #fff; /*#279eff*/
+    background-color: #279eff;
     border-top-left-radius: 4vh;
     border-bottom-left-radius: 4vh;
 
