@@ -41,6 +41,7 @@ body {
     height: 100vh;
 
     top: 0%;
+    bottom : 0%;
 
     background-color: #279eff;
     border-top-left-radius: 4vh;
